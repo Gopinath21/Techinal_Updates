@@ -1,0 +1,83 @@
+EBooks And Whitepapers
+
+Some of the research papers by security experts and gurus can provide you a lot of information and inspiration. White papers can be really difficult to read and understand therefore you may need to read them multiple times. Once you understand the topic well, reading will become much faster and you will be able to skim through a lot content in less time.
+Handbook of Applied Cryptography - This ebook contains some free chapter from one of the popular cryptography books. The full book is also available on amazon at Cryptography Book.
+Network Penetration testing Guide
+How to hack anything in Java
+Mcafee on iPhone and iPad Security
+A Good Collection of White papers on security and vulnerabilities - This site contains collection of white papers from different sources and some of these white papers are really worth referring.
+Engineering Principles for Information Technology Security
+Basic Principles Of Information Protection
+Open Web Application Security Project - OWASP is one of the most popular sites that contains web application security related information .
+
+Videos & Play Lists
+
+Those who like to watch video tutorials, here are few I liked. However there are many small video available on youtube. Feel free to explore more and share with us if you like something.
+Cryptography Course By Dan Boneh Stanford University
+Open Security Training- Youtube Playlist of More than 90 hours. I have found this to be the biggest free training available for security related topic.
+OWASP AppSec USA 2011: Youtube Playlist containing compilation of OWASP conference highlight in 2011.
+Defcon: How I Met your Girlfriend - Defcon is one of the most popular hacker conference. The presenters in this conference are well know inside the hacking industry.
+Defcon: What happens when you steal a hackers computer
+Defcon: Nmap: Scanning the Internet
+Public Key Cryptography: Diffie-Hellman Key Exchange
+Web application Pen testing
+Intro to Scanning Nmap, Hping, Amap, TCPDump, Metasploit
+
+Forums For Hackers And Security Professionals
+
+Just like any other area, forums are really great help for learning from other experts. Hundreds of security experts and ethical/non-ethical hackers are willing to share their knowledge on forums for some reason. Please keep in mind to do enough research before post a question and be polite to people who take time to answer your question. 
+Stackoverflow for security professionals
+http://darksat.x47.net/
+http://forums.securityinfowatch.com/
+http://forums.cnet.com/spyware-viruses-security-forum/
+http://www.hackforums.net/forumdisplay.php?fid=47
+
+Vulnerability Databases And Resources
+
+Vulnerability Databases are the first place to start your day as a security professional. Any new vulnerability detection is generally available through the public vulnerability databases. These databases are a big source of information for hackers to be able to understand and exploit/avoid/fix the vulnerability. 
+http://www.exploit-db.com/
+http://1337day.com/
+http://securityvulns.com/
+http://www.securityfocus.com/
+http://www.osvdb.org/
+http://www.securiteam.com/
+http://secunia.com/advisories/
+http://insecure.org/sploits_all.html
+http://zerodayinitiative.com/advisories/published/
+http://nmrc.org/pub/index.html
+http://web.nvd.nist.gov
+http://www.vupen.com/english/security-advisories/
+http://www.vupen.com/blog/
+http://cvedetails.com/
+http://www.rapid7.com/vulndb/index.jsp
+http://oval.mitre.org/
+Product Specific Vulnerability Information
+
+Some of the very popular products in the world require a special attention and therefore you may want to look at the specific security websites directly from vendors. I have kept Linux. Microsoft and apache in this list, however it may apply to any product you may be heavily using. 
+Red Hat Security and other updates Site
+Microsoft Products Security Bulletin
+Apache Foundation Products Security Repository
+Ubunut Software Security Center
+Linux Security Repository
+
+Tools And Programs For Hacking / Security
+
+There are dozens of tools available for doing different types of hacking and tests. Tools are really important to become more productive at your work. Some of the very common tools that are used by hackers are listed here. You may have different choice of tools based on your own comfort.
+nmap
+NSS
+Hping
+TCPDump
+Metasploit
+Wireshark
+Network Stuff
+Nikto
+Summary
+
+I have tried to compile some of these resources for my own reference for the journey of learning I am going to start. I am not even at a beginner level of becoming hacker but the knowledge of this field really fascinates me and keeps me motivated for learning more and more. I hope will be able to become successful in this.
+
+A lot of people use their knowledge skills for breaking stuff and stealing. I personally think that doing harm to someone is a weak choice and will not have a good ending. I would recommend not to use your skills for any un-ethical endeavor. A single misuse of your skill may jeopardize your career since most companies do a strict third party background check before they hire a ethical hacker or a security personal. 
+
+There are dozens of companies looking for ethical hackers and security professionals. There are really good number of opportunities in this area and its really niche compensation segment. You will be easily able to get a decent job without even acquiring all the expert level skills to become a pro hacker.
+
+Posted by Sachin FromDev
+LIKE 

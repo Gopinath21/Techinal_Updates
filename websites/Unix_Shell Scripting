@@ -5,6 +5,7 @@ http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html
 http://www.tldp.org/LDP/abs/html/
 http://digital-era.net/bash-useful-resources/
 http://www.gnu.org/software/bash/manual/bashref.html
+http://www.adminschoice.com/
 
 
 Books
@@ -13,3 +14,9 @@ Pro Bash Programming: Scripting the GNU/Linux Shell (Expert's Voice in Linux) by
 http://shop.oreilly.com/product/9780596003302.do
 Wicked Cool Shell Scripts:
 Pro Bash Programming: Scripting the GNU/Linux Shell
+
+IMP cmds :-
+	find . -xdev -size +100000000c -type f -exec ls -lrth {} \;
+	du -sk *| sort -nr | head -5
+	df -h /
+	

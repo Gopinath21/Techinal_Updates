@@ -1,0 +1,41 @@
+During my 6th semester. At VIT, We had 2 and a half hour labs. 
+Most boring lab was networks lab. We had to use telnet instead of standalone ubuntu computers.
+
+So there is one single server. and if the server crashes. The faculty does not like idle students in lab and he would let us go.
+
+Server runs on centOS and uses kernel 2.6 or 2.2 (i forgot). I wanted to crash the server by starving it of cpu as well as main memory (ram).
+
+1
+2
+3
+4
+5
+while(1){
+p = fork();
+if(p==0){
+}
+}
+
+
+I executed it and It had no effect. I figured out 2.6 or 2.2 uses "copy on write" policy. Child process share the  memory block of parent process and the block changes when child process is allocated memory. so I changed the code to
+
+1
+2
+3
+4
+5
+6
+while(1){
+p = fork();
+if(p==0){
+  malloc(100000);
+}
+}
+
+
+Due to separate threads and memory. it hit the limit to creating more threads and could not create anymore.
+'top' 'ls' nothing worked because fork cannot be executed. So administrator cannot check who fucked the system.
+
+we were left early. I understood I had great power and did not share it with everybody because same server is used during examinations.
+
+In my 7th semester, they have upgraded the kernel and number of threads that can be created is limited.

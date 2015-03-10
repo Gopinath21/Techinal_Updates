@@ -1,0 +1,22 @@
+ http://powershell.com/Mastering-PowerShell.pdf
+ http://gegeek.com/documents/eBooks/Windows%20Powershell%203.0%20First%20Steps.pdf
+ 
+ 	https://www.google.co.in/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=beginners+powershell+pdf
+	
+	beginners powershell pdf
+	
+http://www.ansatt.hig.no/erikh/tutorial-powershell/powershell-notes.pdf
+	https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CB0QFjAA&url=http%3A%2F%2Fpowershell.com%2FMastering-PowerShell.pdf&ei=Gv3-VI_CAcTJuATN3oCoAw&usg=AFQjCNGjjzzUid6Jx2XSu7AH687Dl7d_pQ&bvm=bv.87920726,d.c2E
+	
+	http://www.ansatt.hig.no/erikh/tutorial-powershell/powershell-notes.pdf
+	
+	http://gegeek.com/documents/eBooks/Windows%20Powershell%203.0%20First%20Steps.pdf
+	
+	http://powershell.com/Mastering-PowerShell.pdf
+	
+	plink -ssh ip "unm" "pwd" <command> >>"outputfile.fileformat"
+	
+	-l 
+	
+	-pw
+	

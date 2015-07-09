@@ -1,0 +1,59 @@
+Enter file contents here
+#Declaring the Assembly Type.
+Add-Type -AssemblyName System.Windows.Forms
+
+$WshShell = New-Object -ComObject WScript.Shell
+
+function toggleOn {
+    $label.text = "Screen Auto Lock Overridden"
+    Start-Job -Name "DisableScreenAutoLock" -ScriptBlock {
+        $WshShell = New-Object -ComObject WScript.Shell
+        while($true){
+        $WshShell.SendKeys('{NUMLOCK}')
+        Start-Sleep -Seconds 60
+    }
+    }   
+}
+
+function toggleOff {
+    Stop-Job -Name "DisableScreenAutoLock"
+    Remove-Job -Name 'DisableScreenAutoLock'
+    $label.text = "Screen Auto Lock Enabled"
+}
+
+#Designing the form
+$mainWindow = New-Object System.Windows.Forms.Form
+$mainWindow.Height = 152;
+$mainWindow.Width = 125;
+
+
+$button1 = New-Object System.Windows.Forms.Button
+$button1.text = "Turn On"
+$button1.Height = 50;
+$button1.Width = 50;
+$button1.Location = New-Object Drawing.Point 5,60
+
+$button2 = New-Object System.Windows.Forms.Button
+$button2.text = "Turn Off"
+$button2.Height = 50;
+$button2.Width = 50;
+$button2.Location = New-Object Drawing.Point 60,60
+
+$label = New-Object System.Windows.Forms.Label
+$label.text = "Screen Auto Lock"
+$label.height = 50;
+$label.width = 105;
+$label.Location = New-Object Drawing.Point 5,5
+$label.TextAlign = 'MiddleCenter'
+$label.BorderStyle = 1
+
+
+#Button Click Functionality.
+$button1.add_click({toggleOn});
+$button2.add_click({toggleOff});
+
+#Adding Controls to the Form and Displaying it.
+$mainWindow.Controls.Add($button2);
+$mainWindow.Controls.Add($button1);
+$mainWindow.Controls.Add($label);
+$mainWindow.ShowDialog();
